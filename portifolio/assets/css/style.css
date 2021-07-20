@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900"
+);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Literata', serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+/* #A28F9D - roxo claro
+ #5F4061 - roxo escuro
+ #E0948D - rosa claro
+#F06262 - rosa escuro
+ #C73F31 - vermelho*/
+nav{
+    background-color:#C73F31 ;
+    font-weight: 600;
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+
+    list-style: none;
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    padding: 1.5rem;
+}
+nav ul li a{
+    padding: .5rem;
+    text-decoration: none;
+    background-color: #F06262;
+    color: #fff;
+    border: .1rem solid #FAC7BE;
+    border-radius: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+header div#img-dream{
+    display: flex;
+    justify-content: center;
+}
+
+header#inicio div p{
+    font-size: 3vw;
+    font-weight: 700;
+    color: #5f4061;
+}
+
+header#inicio div span{
+    font-size: 2vw;
+    font-weight: 600;
+    color: #F06262;
+    margin-left: 20rem;
+}
+header div#img-dream img{
+    width: 70%;
+ }
+
+ section#sobremim{
+     display: flex;
+     justify-self: center;
+     align-items: center;
+     padding: 3rem;
+     background-color: #5f4061;
+ }
+
+ section#sobremim div img{
+     width: 50%;
+     display: block;
+     margin: auto;
+ }
+
+ section#sobremim div p{
+    font-size: 1.1vw;
+    text-align: justify;
+    color: #fff;
+    line-height: 2.5rem;
+}
