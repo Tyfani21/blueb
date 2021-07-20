@@ -65,9 +65,9 @@ section#infos div#txt button{
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
-    text;
     background-color: rgb(189, 113, 42);
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    text-shadow: .2rem .2rem rgb(39, 18, 0);
     border-radius: 2rem;
     transition: all .5s ease-out;
-    cursor: pointer;
+    cursor: pointer;}
