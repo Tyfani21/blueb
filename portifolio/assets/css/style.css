@@ -15,7 +15,7 @@ html, body {
 #F06262 - rosa escuro
  #C73F31 - vermelho*/
 nav{
-    background-color:#C73F31 ;
+    background-color:#19111a ;
     font-weight: 600;
     position: fixed;
     width: 100%;
@@ -53,7 +53,7 @@ header div#img-dream{
 header#inicio div p{
     font-size: 3vw;
     font-weight: 700;
-    color: #5f4061;
+    color: #19111a;
 }
 
 header#inicio div span{
@@ -63,7 +63,7 @@ header#inicio div span{
     margin-left: 20rem;
 }
 header div#img-dream img{
-    width: 70%;
+    width: 80%;
  }
 
  section#sobremim{
@@ -71,18 +71,220 @@ header div#img-dream img{
      justify-self: center;
      align-items: center;
      padding: 3rem;
-     background-color: #5f4061;
+     background-color: #19111a;
  }
 
  section#sobremim div img{
      width: 50%;
      display: block;
      margin: auto;
+     border: .1rem solid #C73F31;
+     border-radius: 3rem;
+     background-color: #C73F31;
  }
 
  section#sobremim div p{
-    font-size: 1.1vw;
+     padding: 1rem;
+    font-size: 2vw;
     text-align: justify;
     color: #fff;
     line-height: 2.5rem;
+    border: .2rem dotted #F06262;
+    border-radius: 2rem;
 }
+
+section#projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    flex-wrap: wrap;   
+}
+
+section#projetos div{
+    width: 18rem;
+}
+section#projetos div img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+section#projetos div h2{
+    text-align: center;
+    padding: 1rem;
+    font-style:italic;
+}
+
+section#projetos div p{
+    text-align: justify;
+ }
+ 
+ section#projetos div{
+    padding: 2rem;
+ }
+
+section#projetos div button{
+    border: .1rem dotted #19111a;
+    background-color: #FAC7BE;
+    color: #19111a;
+    padding: 1rem;
+    font-size: 2vw;
+    font-weight: 800;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .6s ease-out;
+} 
+
+section#projetos div button:hover{
+    background-color: #5f4061;
+    color: #FAC7BE;
+    border: .1rem dotted #FAC7BE;
+    transform: scale(1.5);
+}
+
+section#habilidades{
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: #F06262;
+ }
+ 
+section#habilidades p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FAC7BE;
+}
+
+section#habilidades h2{
+    color: #19111a;
+}
+section#habilidades div{
+    display: flex;
+    border: .1rem dotted #19111a;
+    border-radius: 1rem;
+    
+ }
+ 
+ section#habilidades div span#python{
+    background-color: #FAC7BE;
+    color: #5f4061;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 15%;
+ }
+ 
+ section#habilidades div span#html{
+    background-color: #FAC7BE;
+    color: #5f4061;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 40%;
+ }
+ 
+ section#habilidades div span#css{
+    background-color: #FAC7BE;
+    color: #5f4061;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 35%;
+ }
+ section#contato {
+    padding: 3rem 10rem 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+ }
+ 
+ section#contato div#redes{
+    width: 100%;
+ }
+ 
+ section#contato div#redes h3{
+    text-align: center;
+    font-size: 2.5rem; 
+    margin-bottom: 2rem; 
+ }
+ 
+ section#contato div#redes div#icons{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ section#contato div#redes div#icons a{
+    text-decoration: none; 
+    color: #F06262;
+    font-size: 4rem;
+    padding: 2rem;
+    transition: all .4s ease-out;
+ }
+ 
+ section#contato div#redes div#icons a:hover{
+    color: #F06262;
+ }
+ 
+ section#contato div#redes div#icons a i{
+    transition: all .4s ease-out;
+ }
+ 
+ section#contato div#redes div#icons a i:hover{
+    transform: scale(1.2);
+ }
+ 
+ section#contato div#form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+ 
+ section#contato div#form h3{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+ }
+ 
+ section#contato div#form form{
+    width: 50%;
+ }
+ 
+ section#contato div#form form input, textarea{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border: .1rem solid #FAC7BE;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    outline: none; 
+ }
+ 
+ section#contato div#form form label{
+    font-size: 1.5rem;
+ }
+ 
+ section#contato div#form form button{
+    border: .1rem dotted #19111a;
+    background-color: #FAC7BE;
+    color: #19111a;
+    padding: 1rem;
+    font-size: 2vw;
+    font-weight: 600;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .6s ease-out;
+    width: 40%;
+ }
+ 
+ section#contato div#form form button:hover{
+    background-color: #19111a;
+    color: #FAC7BE;
+    border: .1rem dotted #fac7be;
+    transform: scale(1.2);
+ }
