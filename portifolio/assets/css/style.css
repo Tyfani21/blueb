@@ -288,3 +288,8 @@ section#habilidades div{
     border: .1rem dotted #fac7be;
     transform: scale(1.2);
  }
+
+ footer{
+    background-color:#19111a;
+    padding: 5rem;
+ }
