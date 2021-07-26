@@ -1,3 +1,7 @@
+var1 = 'SIM'
+var2 = 'NÃO'
+var3 = 'RESPOSTA INVÁLIDA'
+
 print('Projeto Detetive')
 
 pgt1 = input("Você telefonou para a vítima?\n").upper().strip()
@@ -21,9 +25,6 @@ pgt3_2 = 0
 pgt4_2 = 0
 pgt5_2 = 0
 
-var1 = 'SIM'
-var2 = 'NÃO'
-var3 = 'RESPOSTA INVÁLIDA'
 
 
 if pgt1 == var1:
