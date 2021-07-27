@@ -153,10 +153,26 @@ section#projetos div button:hover{
     transform: scale(1.5);
 }
 
+section#futuro {
+  padding: 4rem;
+  background-color: #fac7be;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#futuro h2{
+  font-weight: 900;
+  padding-inline: 43%;
+}
+
+section#futuro div{
+    padding: 1.5rem;
+}
+
 section#habilidades{
     padding: 3rem 10rem 3rem 10rem;
     background-color: #F06262;
- }
+    text-align:justify;
+  }
  
 section#habilidades p{
     padding: 1rem;
